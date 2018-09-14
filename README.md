@@ -22,6 +22,7 @@ Because of that, the main character has to pass carefully near those rabbits bec
 
 #Credits
 Author: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/)
+
 Professor: Marco Schaerf
 
 ##
