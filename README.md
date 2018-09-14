@@ -24,7 +24,7 @@ Because of that, the main character has to pass carefully near those rabbits bec
 
 Author: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/)
 
-Professor: Marco Schaerf
+Professor: [Marco Schaerf](https://www.linkedin.com/in/marco-schaerf-0723271a/)
 
 ##
 <p align=center><a href="url"><img src="https://preview.ibb.co/ebyZCo/logo_rosso_sapienza.png" ></p>
