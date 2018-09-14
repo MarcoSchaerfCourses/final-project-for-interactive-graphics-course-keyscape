@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>KeyScape - Intro</title>
+
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            background-image: url("../background/KeyScape2.png");
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .divc {
+            text-align: center;
+            margin: auto;
+            position: relative;
+            top: 40%;
+        }
+        
+        div.bar {
+            width: 30%;
+            position: relative;
+            top: 15%;
+            left: 34.5%;
+            text-align: center;
+            border-style: solid;
+            border-radius: 100px;
+            background-color: #8d7c19;
+            font-family: "Comic sans MS";
+            font-size: 30px;
+        }
+        
+        p+p {
+            margin-top: 40px;
+        }
+        
+        div.txt {
+            font-size: 250%;
+            font-family: "Comic sans MS";
+            color: gold;
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            position: relative;
+            top: 10%;
+        }
+        
+        .button {
+            background-color: #292615;
+            border: 2px solid #8d7c19;
+            border-radius: 100px;
+            width: 400px;
+            height: 130px;
+            color: gold;
+            font-family: "Comic sans MS";
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 40px;
+            position: fixed;
+            top: 65%;
+            left: 42%;
+            cursor: pointer;
+            display: block;
+        }
+        
+        .button2 {
+            background-color: #292615;
+            border: 2px solid #8d7c19;
+            border-radius: 100px;
+            width: 400px;
+            height: 130px;
+            color: gold;
+            font-family: "Comic sans MS";
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 40px;
+            position: fixed;
+            top: 77%;
+            left: 42%;
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="txt">
+        <br> A criminal organization of scientists put you in a maze to make a survival human experiment... You are traped and the only way to escape is to find a Key that is a magic gate to the real world...
+        <br><br><br> It's daytime now; if you want to play at nighttime check this checkbox!
+    </div>
+
+    <div class="bar">
+        <p> Night sky <input type="checkbox" id="nightCheck" value="night" title="it's night time"><br> </p>
+        <p> Difficulty: Beginner <input id="diffBar" type="range" min="0" max="3" step="1" value="0" title="Difficulty bar the number of rabbits and their maximum range before game over" /> Expert </p>
+    </div>
+    <div class="divc">
+        <p><button id="confirmButt" class="button">START GAME</button></p>
+        <p><button id="menuButt" class="button2">BACK</button></p>
+    </div>
+
+    <script>
+        document.getElementById("confirmButt").onclick = function() {
+            localStorage.setItem("Difficulty", document.getElementById("diffBar").value);
+            if (document.getElementById("nightCheck").checked) localStorage.setItem("Night", true);
+            else localStorage.setItem("Night", false);
+            window.location.href = "main.html";
+        };
+        document.getElementById("menuButt").onclick = function() {
+            window.location.href = "menu.html";
+        };
+    </script>
+
+</body>

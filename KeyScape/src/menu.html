@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>KeyScape - Menu</title>
+
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            background-image: url("../background/KeyScape3.png");
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .divc {
+            text-align: center;
+            margin: auto;
+            position: relative;
+            top: 40%;
+        }
+        
+        div.txt {
+            font-size: 250%;
+            font-family: "Comic sans MS";
+            color: gold;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+        
+        .button {
+            background-color: #292615;
+            border: 2px solid #8d7c19;
+            border-radius: 100px;
+            width: 400px;
+            height: 130px;
+            color: gold;
+            font-family: "Comic sans MS";
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 40px;
+            margin: auto;
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="divc">
+        <button id="beginButt" class="button">NEW GAME</button>
+        <button id="instructButt" class="button">INSTRUCTIONS</button>
+        <button id="creditsButt" class="button">CREDITS</button>
+        <button id="mainButt" class="button">BACK</button>
+    </div>
+
+    <script>
+        document.getElementById("beginButt").onclick = function() {
+            window.location.href = "gameIntro.html";
+        };
+        document.getElementById("instructButt").onclick = function() {
+            window.location.href = "instructions.html";
+        };
+        document.getElementById("creditsButt").onclick = function() {
+            window.location.href = "credits.html";
+        };
+        document.getElementById("mainButt").onclick = function() {
+            window.location.href = "../index.html";
+        };
+    </script>
+
+
+</body>

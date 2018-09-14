@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>"KeyScape"</title>
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #myCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+        
+        #controlCamera {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+    <script src="../lib/babylon.custom.js"></script>
+    <script src="../lib/babylon.objFileLoader.js"></script>
+    <script src="character.js"></script>
+    <script src="check.js"></script>
+    <script src="rabbit.js"></script>
+
+
+</head>
+
+<body>
+    <canvas id="myCanvas" touch-action="none">
+            Your browser doesn't support the HTML5 canvas
+        </canvas>
+
+    <script type="text/javascript" src="scene.js"></script>
+</body>
+
+</html>

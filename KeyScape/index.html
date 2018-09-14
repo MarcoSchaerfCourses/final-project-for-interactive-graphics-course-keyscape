@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KeyScape</title>
+
+    <style>
+        body,
+        html {
+            background: url("/background/KeyScape.png") no-repeat center center fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .divc {
+            text-align: center;
+            position: relative;
+            top: 60%;
+        }
+        
+        div.txt {
+            font-size: 450%;
+            font-family: "Comic sans MS";
+            color: gold;
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+        
+        .button {
+            background-color: #292615;
+            border: 2px solid #8d7c19;
+            border-radius: 100px;
+            width: 300px;
+            height: 110px;
+            color: gold;
+            font-family: "Comic sans MS";
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 35px;
+            cursor: pointer;
+            display: block;
+            position: fixed;
+            top: 80%;
+            left: 45.1%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="divc">
+        <button id="newgameButt" class="button">START</button>
+
+    </div>
+
+    <script>
+        document.getElementById("newgameButt").onclick = function() {
+            window.location.href = "src/menu.html";
+        };
+    </script>
+
+
+</body>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dude Gear Solid - Credits</title>
+
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            background-image: url("../background/KeyScape2.png");
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .divc {
+            text-align: center;
+            margin: auto;
+            position: relative;
+            top: 40%;
+        }
+        
+        div.txt {
+            font-size: 250%;
+            font-family: "Comic sans MS";
+            color: gold;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+        
+        .button {
+            background-color: #292615;
+            border: 2px solid #8d7c19;
+            border-radius: 100px;
+            width: 300px;
+            height: 100px;
+            color: gold;
+            font-family: "Comic sans MS";
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 40px;
+            margin: auto;
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="txt">
+        <br>This is a game made by Lucia Rodinò
+        <br>using WebGL and Babylon.js
+        <br><br> Interactive Graphic Exam 2018
+        <br> Prof. Marco Schaerf
+
+
+    </div>
+    <div class="divc">
+        <button id="menuButt" class="button">Back</button>
+    </div>
+
+    <script>
+        document.getElementById("menuButt").onclick = function() {
+            window.location.href = "menu.html";
+        };
+    </script>
+
+
+</body>
