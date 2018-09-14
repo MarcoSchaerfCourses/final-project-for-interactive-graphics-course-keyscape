@@ -11,16 +11,17 @@ This objective is not so easy to reach, cause in the hole land there are little 
 that explode if you get too close to them. 
 Because of that, the main character has to pass carefully near those rabbits because if they explode the game will be over.
 
-#Game Demo
+# Game Demo
 
 
-#Important references
+# Important references
 
 [BabylonJS documentation](https://doc.babylonjs.com)
 
 [BabylonJS GitHub](https://github.com/BabylonJS/Babylon.js)
 
-#Credits
+# Credits
+
 Author: [Lucia Rodinò](https://www.linkedin.com/in/lucia-rodinò-b5019815b/)
 
 Professor: Marco Schaerf
