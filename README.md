@@ -13,6 +13,7 @@ Because of that, the main character has to pass carefully near those rabbits bec
 
 # Game Demo
 
+[Click here to play demo](https://marcoschaerfcourses.github.io/keyscape/)
 
 # Important references
 
