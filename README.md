@@ -17,9 +17,9 @@ Because of that, the main character has to pass carefully near those rabbits bec
 
 # Game presentation
 
-[Click here to view the slides presentation](https://www.slideshare.net/secret/ISshD2uZLYWw4n)
-
 [Click here to read the report](https://github.com/MarcoSchaerfCourses/keyscape/blob/master/ReportKeyScape.pdf)
+
+[Click here to view the slides presentation](https://www.slideshare.net/secret/ISshD2uZLYWw4n)
 
 # Important references
 
